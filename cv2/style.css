@@ -1,0 +1,260 @@
+body {
+    background: #90dfc7;
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    width: 1000px;
+    background: #fff;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
+}
+
+.container .left-side {
+    position: relative;
+    background: #18695d;
+    padding: 40px;
+}
+
+.profile-text {
+    color: white;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.profile-text.imgfoto {
+    position: relative;
+    width: 200px;
+    height: 200px;
+}
+
+.imgfoto img {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}
+
+.profile-text h2 {
+    color: #fff;
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+}
+
+.profile-text h2 span {
+    font-size: 0.7em;
+    font-weight: 300;
+}
+
+.contact {
+    padding-top: 10px;
+}
+
+.title {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.contact ul {
+    position: relative;
+}
+
+.contact ul li {
+    position: relative;
+    list-style: none;
+    margin: 6px;
+    cursor: pointer;
+}
+
+.contact ul li .icon {
+    display: inline-block;
+    width: 30px;
+    color: #90dfc7;
+}
+
+.contact ul li span {
+    color: #fff;
+    font-weight: 300;
+}
+
+.contact.education h5 {
+    color: #90dfc7;
+    font-weight: 500;
+}
+
+.contact.education h4 {
+    color: #fff;
+    font-weight: 500;
+}
+
+.language span {
+    color: #fff;
+}
+
+.contact.language .percent {
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background: #081921;
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.contact.language .percent div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #90dfc7;
+}
+
+.container.right-side {
+    position: relative;
+    background: #fff;
+    padding: 40px;
+}
+
+.about {
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.title2 {
+    color: #003147;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+p {
+    color: #333
+}
+
+.about.box {
+    display: flex;
+    margin: 20px 0;
+}
+
+.qualities ul {
+    list-style: none;
+}
+
+.qualities ul li {
+    margin: 5px;
+    cursor: pointer;
+}
+
+.qualities ul li .fa {
+    color: #90dfc7;
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+.experience p {
+    margin-left: 30px;
+}
+
+.experience p .fa {
+    color: #90dfc7;
+    margin-right: 10px;
+}
+
+.scills h4 {
+    text-transform: uppercase;
+    color: #848c99;
+    font-weight: 500;
+    margin-top: 4px;
+    margin-bottom: 5px;
+}
+
+.about.scills .percent {
+    position: relative;
+    width: 100%;
+    height: 10px;
+    background: #f0f0f0;
+    margin-bottom: 20px;
+}
+
+.about.scills .percent div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #90dfc7;
+}
+
+.interest ul {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.interest ul li {
+    list-style: none;
+    color: #333;
+    font-weight: 500;
+    margin: 10px 0;
+}
+
+.interest ul li .fa {
+    color: #90dfc7;
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+.contact2 ul {
+    list-style: none;
+}
+
+.contact2 ul li .fa {
+    color: #90dfc7;
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+.about.scills .percent div {
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+
+
+@keyframes slidein {
+    from {
+        margin-left: 0%;
+        width: 0%;
+    }
+    to {
+        margin-left: 0%;
+    }
+}
+
+.contact.language .percent div {
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+
+@keyframes slidein {
+    from {
+        margin-left: 0%;
+        width: 0%;
+    }
+    to {
+        margin-left: 0%;
+    }
+}
